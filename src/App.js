@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 function App() {
 
   const[git, setGit] = useState([]);
-
+ const[count, setCount] = useState([]);
 
   useEffect(()=>{
     fetch ("https://api.github.com/users")
